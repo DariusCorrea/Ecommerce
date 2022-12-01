@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/DariusCorrea/Ecommerce/static/css/main.31d6cfe0.css",
+    "main.js": "/DariusCorrea/Ecommerce/static/js/main.cecfeddf.js",
+    "static/js/787.f35c383f.chunk.js": "/DariusCorrea/Ecommerce/static/js/787.f35c383f.chunk.js",
+    "index.html": "/DariusCorrea/Ecommerce/index.html",
+    "main.cecfeddf.js.map": "/DariusCorrea/Ecommerce/static/js/main.cecfeddf.js.map",
+    "787.f35c383f.chunk.js.map": "/DariusCorrea/Ecommerce/static/js/787.f35c383f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.cecfeddf.js"
+  ]
+}
