@@ -1,0 +1,24 @@
+.header__edit{
+    background-color: rgba(0, 0, 0, 0.855);
+    height: 55px;
+    display:flex;
+    justify-content:flex-end;
+list-style: none;
+padding: 5px;
+    }
+
+.nav-link{
+    color: white;
+    font-size: 20px;
+}
+
+body{
+    background-color: grey;
+}
+
+.editar__boton{
+    background-color: white;
+    font-size: 30px;
+    color: black;
+    margin: 30px;
+}
