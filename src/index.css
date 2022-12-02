@@ -22,3 +22,7 @@ body{
     color: black;
     margin: 30px;
 }
+
+.nav-link:hover{
+    color: whitesmoke;
+}

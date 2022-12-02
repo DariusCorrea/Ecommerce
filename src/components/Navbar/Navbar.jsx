@@ -3,6 +3,12 @@ import React from "react";
 import CartWidget from "../CartWidget/cartwidget";
 
 const NavBar =() =>{
+  const verProducto= ()=>{
+    console.log("Ver Productos")
+     }
+     const ProductoEnCarrito =()=>{
+      console.log ("Producto en carrito")
+     }
     return(
 <nav class="navbar navbar-expand-lg header__edit">
   <div class="container-fluid">
@@ -14,14 +20,13 @@ const NavBar =() =>{
       <div class="navbar-nav ms-auto">
         <a class="nav-link " aria-current="page" href="#">Inicio</a>
         <a class="nav-link" href="#">Ofertas</a>
-        <a class="nav-link" href="#">Productos</a>
-        <a class="nav-link"><CartWidget/></a>
+        <a class="nav-link" href="#" onClick={verProducto}>Productos</a>
+        <a class="nav-link" onClick={ProductoEnCarrito}><CartWidget/></a>
       </div>
     </div>
   </div>
 </nav>
-    )
-    }
-    
-    export default NavBar;
 
+    )
+}
+    export default NavBar;
